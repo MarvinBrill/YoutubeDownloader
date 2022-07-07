@@ -1,0 +1,46 @@
+.surface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    padding: 10px;
+    border: solid 1px rgb(196, 196, 196);
+    border-radius: 6px;
+    flex-direction: column;
+}
+
+.form-inner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    border: solid 1px black;
+    border-radius: 6px;
+    margin-left: 8px;
+    color: white;
+    transition: 0.15s;
+}
+
+.url-input {
+    width: 500px;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 6px;
+}
+
+.download-button:hover {
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+    transition: 0.15s;
+}
